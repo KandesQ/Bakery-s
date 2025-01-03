@@ -1,0 +1,192 @@
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Roboto-regular";
+  src: local("Roboto-regular");
+  src: url(../fonts/Roboto-Regular.eot);
+}
+
+@font-face {
+  src: local("Philosopher-regular");
+  font-family: "Philosopher-regular";
+  src: url(../fonts/Philosopher.eot);
+}
+
+@font-face {
+  src: local("DancingScript-regular");
+  font-family: "DancingScript-regular";
+  src: url(../fonts/DancingScript-Regular.ttf);
+}
+
+@font-face {
+  src: local("playWriteAUSA-light");
+  font-family: "playWriteAUSA-light";
+  src: url(../fonts/PlaywriteAUSA-Light.ttf);
+}
+
+@font-face {
+  src: local("playWriteAUSA-thin");
+  font-family: "playWriteAUSA-thin";
+  src: url(../fonts/PlaywriteAUSA-Thin.ttf);
+}
+
+
+body {
+  background-color: #ffe2b0;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+li {
+  display: inline;
+  margin-right: 100px;
+}
+
+li:last-child {
+  margin: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "DancingScript-regular", sans-serif;
+  font-weight: 700;
+}
+
+.section-about {
+  height: 640px;
+  background: url(../img/01-Картинка-фона.jpg) center/cover no-repeat;
+  margin-bottom: 20px;
+}
+
+.section-about_block {
+  height: 190px;
+  width: 420px;
+  padding-top: 15px;
+  background: linear-gradient(
+    180deg,
+    rgba(244, 213, 178, 0.8) 0%,
+    rgba(234, 156, 65, 0.8) 100%
+  );
+  position: relative;
+  top: 55%;
+  left: 51%;
+  text-align: center;
+}
+
+.section-about_border {
+  height: 160px;
+  width: 390px;
+  position: inherit;
+  border: black solid 1px;
+  margin: 0 auto;
+  padding-top: 17px;
+  padding-left: 28px;
+  text-align: left; 
+}
+
+.section-about_title {
+  margin: 0 0 9px 0;
+  font-size: 36px;
+  text-align: center;
+  font-family: "DancingScript-regular", sans-serif;
+  font-weight: 500;
+}
+
+.section-about_special-order {
+  font-size: 12px;
+  margin: 0;
+  font-family: "playWriteAUSA-light", sans-serif;
+  line-height: 1.5;
+}
+
+.section-description {
+  margin-bottom: 20px;
+}
+
+.section-description_icon-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section_description_text-box {
+  margin-bottom: 10px;
+}
+
+.section-description_icon-box img {
+  margin-right: 76px;
+  height: 290px;
+  width: 290px;
+}
+
+.section-description_icon-box img:last-child {
+  margin: 0;
+}
+
+.section-description_title {
+  margin: 0;
+  font-size: 96px;
+  text-align: center;
+  font-family: 'DancingScript-regular', sans-serif;
+}
+
+
+.red {
+  color: #F15B40;
+}
+
+.section-description_text {
+  font-size: 18px;
+  width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'playWriteAUSA-light', sans-serif;
+}
+
+.section-map {
+  margin-bottom: 20px;
+}
+
+.order {
+  font-size: 36px;
+  font-family: 'DancingScript-regular', sans-serif;
+  font-weight: 700;
+}
+
+.section-map_title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.section-map_map {
+  display: block;
+  margin: 0 auto;
+  height: 400px;
+  width: 900px;
+}
+
+hr {
+  border: 1px solid #999999;
+  width: 1024px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+footer {
+  height: 100px;
+}
